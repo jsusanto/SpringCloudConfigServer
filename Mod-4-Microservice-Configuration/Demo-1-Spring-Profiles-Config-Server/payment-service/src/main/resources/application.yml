@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: payment-service
+    config:
+        import: configserver:http://localhost:8888
+    cloud:
+        config:
+            label: m4-demo-1 #This tells to checkout branch: m4-demo-1
+            failFast: true
+            retry:
+                initialInterval: 5000
+                maxInterval: 10000
+                multiplier: 2
+                maxAttempts: 6
