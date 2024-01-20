@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: users
+    config:
+        import: configserver:http://localhost:8888
+    cloud:
+        config:
+            label: m4-demo-2
+            failFast: true
