@@ -1,5 +1,5 @@
 # spring-cloud-config-3-fundamentals
-Module 2: Microservices Configuration
+Module 4: Microservices Configuration
 
 Demo: Debugging the Spring Environment
 
