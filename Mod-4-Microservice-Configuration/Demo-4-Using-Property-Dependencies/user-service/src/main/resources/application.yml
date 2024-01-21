@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: user-service
+    config:
+        import: configserver:http://localhost:8888
+    cloud:
+        config:
+            label: m4-demo-4
+            failFast: true
+
+server.port: 8081
