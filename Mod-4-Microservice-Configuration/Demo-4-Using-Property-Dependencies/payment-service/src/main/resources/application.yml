@@ -5,7 +5,7 @@ spring:
         import: configserver:http://localhost:8888
     cloud:
         config:
-            label: m4-demo-4
+            label: m5-demo-1
             failFast: true
             retry:
                 initialInterval: 5000
